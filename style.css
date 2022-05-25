@@ -1,0 +1,54 @@
+body {
+    outline: 1px red dotted;
+    font-family: 'Roboto', sans-serif;
+}
+
+.FlexContainer {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.UserCard {
+    margin-top: 60px;
+    width: 600px;
+}
+
+.CardTop {
+    background-color: rgb(52, 178, 178);
+    padding-top: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#pfp {
+    height: 100px;
+    width: auto;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid lightgrey;
+    padding: 5px;
+    margin-bottom: -60px;
+    margin-left: 30px;
+}
+
+.CardBottom {
+    padding-top: 33px;
+    padding-left: 30px;
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.CardBottom img {
+    height: 15px;
+    width: auto;
+    padding-right: 5px;
+}
+
+p{
+    margin-top: -10px;
+}
